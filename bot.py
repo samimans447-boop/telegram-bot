@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = "8200700441:AAGbJAVHUh6psJkzM-Jf6qg70vBzculOl0Y"
+TOKEN = "8200700441:AAEBfqwPwepsvRkxow00CnU1R4vQCONQZOk"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("ሰላም! ቦቱ ተሰርቷል ✅")
